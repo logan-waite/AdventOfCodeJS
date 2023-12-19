@@ -1,0 +1,19 @@
+{
+    "name": "Advent Of Code",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "test": "node index.js",
+        "new": "node cli/gen_day.js",
+        "set_year": "node cli/set_year.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@types/node": "^18.0.6",
+        "node-fetch": "^3.2.6"
+    }
+}
